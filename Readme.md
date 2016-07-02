@@ -15,4 +15,4 @@ GMAIL_API_KEY="<YOUR GMAIL API KEY HERE>"
 ```
 
 # How it could work
-![Flow](http://i.imgur.com/mknihpU.png)
+![Flow](http://i.imgur.com/mknihpU.png?1)
