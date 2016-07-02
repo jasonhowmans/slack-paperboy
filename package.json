@@ -1,0 +1,18 @@
+{
+  "name": "slack-paperboy",
+  "version": "1.0.0",
+  "description": "For discombobulating email newsletters and posting them to slack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape tests/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "lazy.js": "^0.4.2",
+    "node-gmail-api": "^0.6.0"
+  }
+}
