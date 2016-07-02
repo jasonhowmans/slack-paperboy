@@ -7,9 +7,9 @@ Since there's been a shift away from RSS readers, newsletters have filled the sp
 # Installation
 
 ## Setting up your environment
-There are a some environment variables the application needs before it can run. The best way of doing this is to add a file at `./env/default.sh` and use the `npm start` method to boot the app. This will automatically run the `default.sh` file first, making the vars available to node.
+There are a some environment variables the application needs before it can run. The best way of doing this is to add your `.env` file to the project root.
 
 A sample of a environment file:
 ```
-GMAIL_API_KEY="<YOUR GMAIL API KEY HERE>";
+GMAIL_API_KEY="<YOUR GMAIL API KEY HERE>"
 ```

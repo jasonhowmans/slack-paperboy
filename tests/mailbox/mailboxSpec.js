@@ -1,12 +1,17 @@
 'use strict';
 
+// Global requires
+const env = require('dotenv').config();
 const test = require('tape');
+const nock = require('nock');
+
+// Test files
 const mailbox = require('../../mailbox');
 
 
 test('mailbox', (assert) => {
   assert.equal(typeof mailbox, 'object',
-    'should return object');
+    'should be an object');
   assert.end();
 });
 
