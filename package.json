@@ -4,7 +4,9 @@
   "description": "For discombobulating email newsletters and posting them to slack.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/tape/bin/tape tests/**/*.js"
+    "env": "sh ./env/default.sh",
+    "start": "npm run env && node index",
+    "test": "npm run env && ./node_modules/tape/bin/tape tests/**/*.js"
   },
   "author": "",
   "license": "ISC",
