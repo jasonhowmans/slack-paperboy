@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "dotenv": "^2.0.0",
+    "imap-simple": "^1.6.2",
     "lazy.js": "^0.4.2",
     "node-gmail-api": "^0.6.0"
   }

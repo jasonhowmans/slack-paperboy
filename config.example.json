@@ -1,0 +1,9 @@
+{
+  "newsletters": [
+    {
+      "name": "Javascript Weekly",
+      "tags": ["javascript"],
+      "box": "LukeInbox"
+    }
+  ]
+}
